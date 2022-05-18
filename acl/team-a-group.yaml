@@ -58,36 +58,3 @@ spec:
     email: guest@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
----
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: liamjonnes
-# spec:
-#   profile:
-#     displayName: liamjonnes
-#     email: liamjonnes@icloud.com
-#     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-#   memberOf: [team-a]
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: liam
-# spec:
-#   profile:
-#     displayName: Liam
-#     email: liamjonnes@icloud.com
-#     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-#   memberOf: [team-a]
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: User
-# metadata:
-#   name: liam.jones
-# spec:
-#   profile:
-#     displayName: Liam Jones
-#     email: liamjonnes@icloud.com
-#     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-#   memberOf: [team-a]
