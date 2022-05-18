@@ -87,7 +87,7 @@ metadata:
   name: liam.jones
 spec:
   profile:
-    displayName: Liam
+    displayName: Liam Jones
     email: liamjonnes@icloud.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
