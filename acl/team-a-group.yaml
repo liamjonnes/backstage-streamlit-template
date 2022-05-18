@@ -65,7 +65,7 @@ metadata:
   name: liamjonnes
 spec:
   profile:
-    displayName: Guest User
+    displayName: liamjonnes
     email: liamjonnes@icloud.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
@@ -76,7 +76,7 @@ metadata:
   name: liam
 spec:
   profile:
-    displayName: Guest User
+    displayName: Liam
     email: liamjonnes@icloud.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
@@ -87,7 +87,7 @@ metadata:
   name: liam.jones
 spec:
   profile:
-    displayName: Guest User
+    displayName: Liam Jones
     email: liamjonnes@icloud.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: [team-a]
