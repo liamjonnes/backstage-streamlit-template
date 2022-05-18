@@ -28,5 +28,5 @@ spec:
     - https://github.com/backstage/backstage/blob/2233019694428af90281ff597e7cecf495b07441/packages/catalog-model/examples/acme/backstage-group.yaml
     - ./team-a-group.yaml
     - https://github.com/backstage/backstage/blob/2233019694428af90281ff597e7cecf495b07441/packages/catalog-model/examples/acme/team-b-group.yaml
-    - https://github.com/backstage/backstage/blob/2233019694428af90281ff597e7cecf495b07441/packages/catalog-model/examples/acme/team-b-group.yaml
+    - https://github.com/backstage/backstage/blob/2233019694428af90281ff597e7cecf495b07441/packages/catalog-model/examples/acme/team-c-group.yaml
     - https://github.com/backstage/backstage/blob/2233019694428af90281ff597e7cecf495b07441/packages/catalog-model/examples/acme/team-d-group.yaml
