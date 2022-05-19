@@ -1,15 +1,16 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Streamlit-Frontend-Template
-  title: Streamlit Frontend Template
-  description: Create a basic Streamlit application
+  name: Streamlit-Construct-Template
+  title: Streamlit Construct Template
+  description: Create a basic Streamlit construct, ready-to-deploy to an AWS instance after some minor configuration
   tags:
     - streamlit
-    - frontend
+    - aws
+    - cdk
 spec:
   owner: streamlit@example.com
-  type: website
+  type: construct
   parameters:
     - title: Provide some simple information
       required:
@@ -24,7 +25,7 @@ spec:
         description:
           title: Description
           type: string
-          description: Help others understand what this website is for.
+          description: Help others understand what this construct is for.
         owner:
           title: Owner
           type: string
