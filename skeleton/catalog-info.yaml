@@ -10,7 +10,11 @@ metadata:
   annotations:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - aws
+    - cdk
+    - streamlit
 spec:
-  type: website
+  type: construct
   lifecycle: experimental
   owner: ${{values.owner | dump}}
