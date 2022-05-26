@@ -48,6 +48,9 @@ spec:
               - github.ibm.com
               - bitbucketcloud
               - bitbucket.com
+              - bitbucket.org
+              - bitbucket
+              - bitbucketCloud
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -73,7 +76,7 @@ spec:
       name: Publish
       action: publish:bitbucket
       input:
-        allowedHosts: ["bitbucket.com"]
+        allowedHosts: ["bitbucket.org"]
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
