@@ -46,11 +46,7 @@ spec:
             allowedHosts:
               - github.com
               - github.ibm.com
-              - bitbucketcloud
-              - bitbucket.com
               - bitbucket.org
-              - bitbucket
-              - bitbucketCloud
   steps:
     - id: template
       name: Fetch Skeleton + Template
