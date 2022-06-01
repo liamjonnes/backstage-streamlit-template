@@ -12,9 +12,9 @@ metadata:
     backstage.io/techdocs-ref: dir:.
   tags:
     - aws
-    - cdk
+    - python
     - streamlit
 spec:
-  type: construct
+  type: application
   lifecycle: experimental
   owner: ${{values.owner | dump}}

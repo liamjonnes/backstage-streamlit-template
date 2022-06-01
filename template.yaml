@@ -1,12 +1,12 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: Streamlit-Construct-Template
-  title: Streamlit Construct Template
-  description: Create a basic Streamlit construct, ready-to-deploy to an AWS instance after some minor configuration
+  name: Streamlit-App-Template-GitHub
+  title: Streamlit App Template GitHub
+  description: Create a basic Streamlit app
   tags:
     - streamlit
-    - aws
+    - python
     - cdk
 spec:
   owner: streamlit@example.com
@@ -45,8 +45,6 @@ spec:
           ui:options:
             allowedHosts:
               - github.com
-              - github.ibm.com
-              - bitbucket.org
   steps:
     - id: template
       name: Fetch Skeleton + Template
@@ -65,14 +63,7 @@ spec:
       name: Publish
       action: publish:github
       input:
-        allowedHosts: ["github.com", "github.ibm.com"]
-        description: This is ${{ parameters.component_id }}
-        repoUrl: ${{ parameters.repoUrl }}
-    - id: publish
-      name: Publish
-      action: publish:bitbucket
-      input:
-        allowedHosts: ["bitbucket.org"]
+        allowedHosts: ["github.com"]
         description: This is ${{ parameters.component_id }}
         repoUrl: ${{ parameters.repoUrl }}
 
